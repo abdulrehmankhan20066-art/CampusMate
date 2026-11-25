@@ -1,0 +1,7 @@
+0:00–0:40 Explain student problem and new proposal; show task and weather navigation.
+0:40–1:45 Add two tasks, complete one, reload to demonstrate persistence, undo and delete.
+1:45–2:45 Request Dundee weather, then GPS if permission and HTTPS available. Explain error fallback.
+2:45–3:35 Explain localStorage, textContent, HTTPS, permission and no account; show keyboard focus and narrow layout.
+3:35–4:25 Show node --test model.test.js and actual manual test results after you run them. Explain immutable model and request counter.
+4:25–5:00 Discuss limitations: PWA not native, no encryption, weather network dependency, future notifications and native packaging.
+Questions: Why PWA? Cross-platform browser delivery. Why no login? No server or shared data needed. Why request counter? Prevent stale weather response replacing newer selection. What is cached? App shell, not live weather.

@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: trim and add
+ok 1 - trim and add
+  ---
+  duration_ms: 4.895059
+  type: 'test'
+  ...
+# Subtest: reject blank
+ok 2 - reject blank
+  ---
+  duration_ms: 0.339703
+  type: 'test'
+  ...
+# Subtest: reject missing date
+ok 3 - reject missing date
+  ---
+  duration_ms: 1.597715
+  type: 'test'
+  ...
+# Subtest: toggle without mutation
+ok 4 - toggle without mutation
+  ---
+  duration_ms: 0.210328
+  type: 'test'
+  ...
+# Subtest: delete
+ok 5 - delete
+  ---
+  duration_ms: 0.187273
+  type: 'test'
+  ...
+# Subtest: sort by deadline
+ok 6 - sort by deadline
+  ---
+  duration_ms: 10.968848
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 118.019342
